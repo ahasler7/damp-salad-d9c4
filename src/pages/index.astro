@@ -1,42 +1,25 @@
 ---
-import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout>
+// This is the homepage of your Astro site
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PrismOmics</title>
-    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
     <style>
       body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Boldonse', sans-serif;
-        background-color: #0B0C10;
-        color: #FCE5CD;
+        font-family: system-ui, sans-serif;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        text-align: center;
+        margin: 0;
+        background-color: #f4f4f4;
       }
-
       h1 {
-        font-size: 4rem;
-        color: #134F5C;
-        margin-bottom: 0.5rem;
-      }
-
-      h2 {
-        font-size: 1.5rem;
-        font-weight: normal;
-        color: #A7291E;
+        font-size: 2.5rem;
+        color: #333;
       }
     </style>
   </head>
-
-  <body>
-    <h1>PrismOmics</h1>
-    <h2>bringing clarity to life science solutions</h2>
-  </body>
-</Layout>
