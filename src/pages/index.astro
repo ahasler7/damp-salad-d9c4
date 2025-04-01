@@ -1,10 +1,9 @@
 ---
-layout: "../layouts/Layout.astro"
+import Layout from '../layouts/Layout.astro';
 ---
 
-<html lang="en">
+<Layout>
   <head>
-    <meta charset="UTF-8" />
     <title>PrismOmics</title>
     <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
     <style>
@@ -12,7 +11,7 @@ layout: "../layouts/Layout.astro"
         margin: 0;
         padding: 0;
         font-family: 'Boldonse', sans-serif;
-        background-color: #0B0C10; /* Obsidian black */
+        background-color: #0B0C10;
         color: #FCE5CD;
         display: flex;
         flex-direction: column;
@@ -35,8 +34,9 @@ layout: "../layouts/Layout.astro"
       }
     </style>
   </head>
+
   <body>
     <h1>PrismOmics</h1>
     <h2>bringing clarity to life science solutions</h2>
   </body>
-</html>
+</Layout>
