@@ -1,56 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
 
-<html lang="en">
+<Layout>
   <head>
-    <meta charset="UTF-8" />
     <title>PrismOmics</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        margin: 0;
-        padding: 0;
-        font-family: system-ui, sans-serif;
-        background: #f9fafb;
-        color: #111;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        text-align: center;
-        padding: 2rem;
-      }
-      .container {
-        max-width: 600px;
-      }
-      h1 {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-      }
-      p {
-        font-size: 1.25rem;
-        margin-bottom: 2rem;
-      }
-      a.button {
-        background: #111827;
-        color: white;
-        padding: 0.75rem 1.5rem;
-        text-decoration: none;
-        border-radius: 8px;
-        font-size: 1rem;
-        transition: background 0.2s;
-      }
-      a.button:hover {
-        background: #374151;
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div class="container">
-      <h1>Welcome to PrismOmics</h1>
-      <p>Precision proteomics consulting for the next generation of life sciences companies.</p>
-      <a href="mailto:you@example.com" class="button">Contact Us</a>
-    </div>
-  </body>
-</html>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Boldonse', sans-serif;
+      background-color: #0B0C10;
+      color: #FCE5CD;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 4rem;
+      color: #134F5C;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #A7291E;
+    }
+  </style>
+
+  <h1>PrismOmics</h1>
+  <h2>bringing clarity to life science solutions</h2>
+</Layout>
